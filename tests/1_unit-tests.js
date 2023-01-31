@@ -12,7 +12,7 @@ suite('Unit Tests', () => {
         text: 'Mangoes are my favorite fruit.',
         locale: 'american-to-british',
       }),
-      `Mangoes are my <span class='highlight'>favourite</span> fruit.`
+      `Mangoes are my <span class="highlight">favourite</span> fruit.`
     );
   });
 
@@ -22,7 +22,7 @@ suite('Unit Tests', () => {
         text: 'I ate yogurt for breakfast.',
         locale: 'american-to-british',
       }),
-      `I ate <span class='highlight'>yoghurt</span> for breakfast.`
+      `I ate <span class="highlight">yoghurt</span> for breakfast.`
     );
   });
 
@@ -32,7 +32,7 @@ suite('Unit Tests', () => {
         text: `We had a party at my friend's condo.`,
         locale: 'american-to-british',
       }),
-      `We had a party at my friend's <span class='highlight'>flat</span>.`
+      `We had a party at my friend's <span class="highlight">flat</span>.`
     );
   });
 
@@ -42,7 +42,7 @@ suite('Unit Tests', () => {
         text: `Can you toss this in the trashcan for me?`,
         locale: `american-to-british`,
       }),
-      `Can you toss this in the <span class='highlight'>bin</span> for me?`
+      `Can you toss this in the <span class="highlight">bin</span> for me?`
     );
   });
 
@@ -52,7 +52,7 @@ suite('Unit Tests', () => {
         text: `The parking lot was full.`,
         locale: 'american-to-british',
       }),
-      `The <span class='highlight'>car park</span> was full.`
+      `The <span class="highlight">car park</span> was full.`
     );
   });
 
@@ -62,7 +62,7 @@ suite('Unit Tests', () => {
         text: `Like a high tech Rube Goldberg machine.`,
         locale: 'american-to-british',
       }),
-      `Like a high tech <span class='highlight'>Heath Robinson device</span>.`
+      `Like a high tech <span class="highlight">Heath Robinson device</span>.`
     );
   });
 
@@ -72,7 +72,7 @@ suite('Unit Tests', () => {
         text: `To play hooky means to skip class or work.`,
         locale: 'american-to-british',
       }),
-      `To <span class='highlight'>bunk off</span> means to skip class or work.`
+      `To <span class="highlight">bunk off</span> means to skip class or work.`
     );
   });
 
@@ -82,7 +82,7 @@ suite('Unit Tests', () => {
         text: `No Mr. Bond, I expect you to die.`,
         locale: 'american-to-british',
       }),
-      `No <span class='highlight'>Mr</span> Bond, I expect you to die.`
+      `No <span class="highlight">Mr</span> Bond, I expect you to die.`
     );
   });
 
@@ -92,7 +92,7 @@ suite('Unit Tests', () => {
         text: `Dr. Grosh will see you now.`,
         locale: 'american-to-british',
       }),
-      `<span class='highlight'>Dr</span> Grosh will see you now.`
+      `<span class="highlight">Dr</span> Grosh will see you now.`
     );
   });
 
@@ -102,7 +102,7 @@ suite('Unit Tests', () => {
         text: `Lunch is at 12:15 today.`,
         locale: 'american-to-british',
       }),
-      `Lunch is at <span class='highlight'>12.15</span> today.`
+      `Lunch is at <span class="highlight">12.15</span> today.`
     );
   });
 
@@ -112,7 +112,7 @@ suite('Unit Tests', () => {
         text: `We watched the footie match for a while.`,
         locale: 'british-to-american',
       }),
-      `We watched the <span class='highlight'>soccer</span> match for a while.`
+      `We watched the <span class="highlight">soccer</span> match for a while.`
     );
   });
 
@@ -122,7 +122,7 @@ suite('Unit Tests', () => {
         text: `Paracetamol takes up to an hour to work.`,
         locale: 'british-to-american',
       }),
-      `<span class='highlight'>Tylenol</span> takes up to an hour to work.`
+      `<span class="highlight">Tylenol</span> takes up to an hour to work.`
     );
   });
 
@@ -132,7 +132,7 @@ suite('Unit Tests', () => {
         text: `First, caramelise the onions.`,
         locale: 'british-to-american',
       }),
-      `First, <span class='highlight'>caramelize</span> the onions.`
+      `First, <span class="highlight">caramelize</span> the onions.`
     );
   });
 
@@ -142,7 +142,7 @@ suite('Unit Tests', () => {
         text: `I spent the bank holiday at the funfair.`,
         locale: 'british-to-american',
       }),
-      `I spent the <span class='highlight'>public holiday</span> at the <span class='highlight'>carnival</span>.`
+      `I spent the <span class="highlight">public holiday</span> at the <span class="highlight">carnival</span>.`
     );
   });
 
@@ -152,7 +152,7 @@ suite('Unit Tests', () => {
         text: `I had a bicky then went to the chippy.`,
         locale: 'british-to-american',
       }),
-      `I had a <span class='highlight'>cookie</span> then went to the <span class='highlight'>fish-and-chip shop</span>.`
+      `I had a <span class="highlight">cookie</span> then went to the <span class="highlight">fish-and-chip shop</span>.`
     );
   });
 
@@ -162,7 +162,7 @@ suite('Unit Tests', () => {
         text: `I've just got bits and bobs in my bum bag.`,
         locale: 'british-to-american',
       }),
-      `I've just got <span class='highlight'>odds and ends</span> in my <span class='highlight'>fanny pack</span>.`
+      `I've just got <span class="highlight">odds and ends</span> in my <span class="highlight">fanny pack</span>.`
     );
   });
 
@@ -172,7 +172,7 @@ suite('Unit Tests', () => {
         text: `The car boot sale at Boxted Airfield was called off.`,
         locale: 'british-to-american',
       }),
-      `The <span class='highlight'>swap meet</span> at Boxted Airfield was called off.`
+      `The <span class="highlight">swap meet</span> at Boxted Airfield was called off.`
     );
   });
 
@@ -182,7 +182,7 @@ suite('Unit Tests', () => {
         text: `Have you met Mrs Kalyani?`,
         locale: 'british-to-american',
       }),
-      `Have you met <span class='highlight'>Mrs.</span> Kalyani?`
+      `Have you met <span class="highlight">Mrs.</span> Kalyani?`
     );
   });
 
@@ -192,7 +192,7 @@ suite('Unit Tests', () => {
         text: `Prof Joyner of King's College, London.`,
         locale: 'british-to-american',
       }),
-      `<span class='highlight'>Prof.</span> Joyner of King's College, London.`
+      `<span class="highlight">Prof.</span> Joyner of King's College, London.`
     );
   });
 
@@ -202,7 +202,7 @@ suite('Unit Tests', () => {
         text: `Tea time is usually around 4 or 4.30.`,
         locale: 'british-to-american',
       }),
-      `Tea time is usually around 4 or <span class='highlight'>4.30</span>.`
+      `Tea time is usually around 4 or <span class="highlight">4:30</span>.`
     );
   });
 
@@ -212,7 +212,7 @@ suite('Unit Tests', () => {
         text: `Mangoes are my favorite fruit.`,
         locale: 'american-to-british',
       }),
-      `Mangoes are my <span class='highlight'>favourite</span> fruit.`
+      `Mangoes are my <span class="highlight">favourite</span> fruit.`
     );
   });
 
@@ -222,7 +222,7 @@ suite('Unit Tests', () => {
         text: `I ate yogurt for breakfast.`,
         locale: 'american-to-british',
       }),
-      `I ate <span class='highlight'>yoghurt</span> for breakfast.`
+      `I ate <span class="highlight">yoghurt</span> for breakfast.`
     );
   });
 
@@ -232,7 +232,7 @@ suite('Unit Tests', () => {
         text: `We watched the footie match for a while.`,
         locale: 'british-to-american',
       }),
-      `We watched the <span class='highlight'>soccer</span> match for a while.`
+      `We watched the <span class="highlight">soccer</span> match for a while.`
     );
   });
 
@@ -242,7 +242,7 @@ suite('Unit Tests', () => {
         text: `We watched the footie match for a while.`,
         locale: 'british-to-american',
       }),
-      `We watched the <span class='highlight'>soccer</span> match for a while.`
+      `We watched the <span class="highlight">soccer</span> match for a while.`
     );
   });
 });

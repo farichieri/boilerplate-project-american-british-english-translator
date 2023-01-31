@@ -16,7 +16,10 @@ module.exports = function (app) {
       return res.status(200).send({ error: 'Required field(s) missing' });
     }
 
-    if (!translator.validTranslations.includes(locale)) {
+    if (
+      locale !== translator.locales.britishToAmerican &&
+      locale !== translator.locales.americanToBritish
+    ) {
       return res.status(200).send({ error: 'Invalid value for locale field' });
     }
 
